@@ -1,0 +1,462 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 23 Aug, 2016, 10:44:19 AM
+    Author     : neosoft
+*/
+*
+{
+margin:0px;
+padding:0px;
+}
+
+.container
+{
+width:100%;
+}
+
+.lighter{
+	background-color:white;
+}
+
+.dark
+{
+	background-color:black;
+}
+
+
+#logo_left
+{
+display:inline-block;
+}
+
+#menus
+{
+float:right;
+margin-top:10px;
+}
+
+#logo_right
+{
+float:right;
+margin-top:10px;
+}
+
+
+.search_input
+{
+	background:url('images/top_search.png');
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+ul
+{
+	
+}
+
+ul li
+{
+	color:grey;
+	width:100px;	
+	display:inline-block;
+	text-align:center;
+}
+
+ul li a
+{
+	color:grey;
+	text-decoration:none;
+	display:block;
+	border-radius:8px;
+	line-height:30px;
+	
+}
+
+ul li a:hover
+{
+	color:#00cc00;
+	}
+
+#clear
+{
+	clear:both;
+}
+
+.text_col
+{
+	width:300px;
+	display:inline-block;
+	margin-left:20px;
+	
+}
+
+#headin
+{
+	text-align:center;
+	margin-top:20px;
+}
+
+#logo_left
+{
+display:inline-block;
+}
+
+#menus
+{
+float:right;
+margin-top:10px;
+}
+
+#logo_right
+{
+float:right;
+margin-top:10px;
+}
+
+
+.search_input
+{
+	background:url('images/top_search.png');
+	background-repeat:no-repeat;
+	background-position:right;
+}
+
+ul
+{
+	
+}
+
+ul li
+{
+	color:grey;
+	width:100px;	
+	display:inline-block;
+	text-align:center;
+}
+
+ul li a
+{
+	color:grey;
+	text-decoration:none;
+	display:block;
+	border-radius:8px;
+	line-height:30px;
+	
+}
+
+ul li a:hover
+{
+	color:#00cc00;
+	}
+
+#clear
+{
+	clear:both;
+}
+
+
+#headin
+{
+	text-align:center;
+	margin: 20px 20px 0px;
+}
+
+.text_col
+{
+	width:50%;
+        height:400px;
+	border:1px solid green;
+        padding:5px;
+        text-align:justify;
+        text-transform: capitalize;
+        text-indent: 50px;
+        display:inline-block;
+       	margin:10px;
+	
+}
+
+.col_image{
+    float:right;
+    border:1px solid white;
+    padding-right:10px;
+    display:inline-block;
+    margin:20px;
+}
+
+#log_image:before
+{
+    content:url(images/arrow1.png);
+    padding:2px;
+}
+
+.button{
+    background-color: greenyellow;
+    border: none;
+    border-radius:15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px 200px 0px;
+    cursor: pointer;
+    }
+    
+.p5{
+    background-color: whitesmoke;  
+    padding-top:40px;
+    text-align: center;    
+    line-height:1.8;       
+}
+
+.col1{
+    background-color: whitesmoke;
+    width: 30%;
+    height:400px;
+    padding-top:20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 220px;
+    display:inline-block;
+    float:left;
+    
+}
+
+.col2{
+    background-color: whitesmoke;
+    width:30%;
+    height:400px;
+    padding-top:20px;
+    box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 200px 0px 0px;
+    float:right;
+    display:inline-block;
+}
+
+.button1{
+   	
+    background-color: greenyellow;
+    border: none;
+    border-radius:15px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: auto;
+    cursor: pointer;  
+}
+
+.col3{
+    background-color: whitesmoke;
+    width: 30%;
+    height:450px;
+    padding-top:20px;
+  //  box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 50px;
+    display:inline-block;
+    float:left;
+    
+}
+
+.button2{
+   	
+    background-color: whitesmoke;
+    border:1px solid greenyellow;
+    color: greenyellow;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 90px;
+    cursor: pointer;  
+}
+
+.col4
+{
+    background-color: whitesmoke;
+    width: 30%;
+    height:450px;
+    padding-top:20px;
+  //  box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 10px;
+    display:inline-block;
+    float:left;
+    
+}
+
+.button3{
+   	
+    background-color: greenyellow;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 90px;
+    cursor: pointer;  
+}
+
+.col5
+{
+    background-color: whitesmoke;
+    width: 30%;
+    height:450px;
+    padding-top:20px;
+  //  box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 10px;
+    display:inline-block;
+    float:left;
+    
+}
+
+.part8{
+    
+    background-color: gray;
+    width:100%;
+    height:100px;
+    color:white;
+    font-size: 40px;
+  display: inline-block;
+    float: left;
+}
+
+#part:before
+{
+    content:url(images/icon5.png);
+    padding:2px;
+}
+
+.button4{
+   	
+    background-color: gray;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 0px 0px 0px 90px;
+    cursor: pointer;  
+}
+
+
+.part9{
+    border:1px solid green;
+    display: inline-block;
+    margin: 10px 0px 10px 350px;
+    color:blue;
+}
+
+
+
+.logo_last{
+    background-color: black;
+    width:100%;
+    color:white;
+}
+.last_image{
+    display: inline-block;
+    margin: 80px 0px 0px 40px;
+    font-size: 25px;
+}
+
+.button5{
+   	
+    background-color: greenyellow;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin: 0px 0px 0px 50px;
+    cursor: pointer;  
+}
+
+.button6{
+   	
+    background-color: greenyellow;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    float: right;
+    margin: 0px 10px 0px 225px;
+    cursor: pointer;  
+}
+
+.col6{
+    background-color: black;
+    width: 30%;
+    height:200px;
+    padding-top:20px;
+    text-align: center;
+    color:white;
+  //  box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 50px;
+    display:inline-block;
+    float:left;
+}
+
+.col7{
+     background-color: black;
+    width: 30%;
+    height:200px;
+    padding-top:20px;
+    text-align: center;
+    line-height: 1.8;
+    color:white;
+  //  box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 10px;
+    display:inline-block;
+    float:left;
+}
+
+.col8{
+    
+     background-color: black;
+    width: 30%;
+    height:200px;
+    padding-top:20px;
+    text-align: center;
+    line-height:1.8;
+    color:white;
+  //  box-shadow: 10px 10px 10px 10px grey;
+    margin: 40px 0px 0px 10px;
+    display:inline-block;
+    float:left;
+}
+
+.coll{
+    background-color: black;
+    width:100%;
+    
+    
+}
+
+#col_image:before
+{
+    content:url(images/icon8.png);
+    padding:2px;
+}
+
+#col_image2:before
+{
+    content:url(images/icon9.png);
+    padding:2px;
+}
